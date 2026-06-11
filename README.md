@@ -36,3 +36,9 @@ Self-test priority queue:
 python priority_queue.py
 ```
 
+Run scheduler simulation:
+
+```powershell
+python scheduler.py
+```
+
