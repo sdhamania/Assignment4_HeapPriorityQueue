@@ -30,10 +30,9 @@ Self-test heap sort:
 python heap_sort.py
 ```
 
-## Repository
+Self-test priority queue:
 
-GitHub: _(add URL after creating the repository)_
+```powershell
+python priority_queue.py
+```
 
-## Findings
-
-_Findings will be added after benchmarks and scheduler simulation are complete._
