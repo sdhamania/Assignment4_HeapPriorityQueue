@@ -1,0 +1,14 @@
+scenario,algorithm,task_id,arrival_time,burst_time,priority,waiting_time,turnaround_time,avg_waiting_time,avg_turnaround_time,completion_order
+mixed_arrivals,NPPS,P1,0,4,3,0,4,2.75,5.25,P1 -> P3 -> P4 -> P2
+mixed_arrivals,NPPS,P3,2,1,4,2,3,2.75,5.25,P1 -> P3 -> P4 -> P2
+mixed_arrivals,NPPS,P4,3,3,2,2,5,2.75,5.25,P1 -> P3 -> P4 -> P2
+mixed_arrivals,NPPS,P2,1,2,1,7,9,2.75,5.25,P1 -> P3 -> P4 -> P2
+dynamic_priority,NPPS,T3,0,2,9,0,2,2.0,4.333,T3 -> T2 -> T1
+dynamic_priority,NPPS,T2,0,2,8,2,4,2.0,4.333,T3 -> T2 -> T1
+dynamic_priority,NPPS,T1,0,3,5,4,7,2.0,4.333,T3 -> T2 -> T1
+npps_vs_fcfs,NPPS,J1,0,5,3,0,5,3.0,6.333,J1 -> J3 -> J2
+npps_vs_fcfs,NPPS,J3,2,2,5,3,5,3.0,6.333,J1 -> J3 -> J2
+npps_vs_fcfs,NPPS,J2,1,3,1,6,9,3.0,6.333,J1 -> J3 -> J2
+npps_vs_fcfs,FCFS,J1,0,5,3,0,5,3.333,6.667,J1 -> J2 -> J3
+npps_vs_fcfs,FCFS,J2,1,3,1,4,7,3.333,6.667,J1 -> J2 -> J3
+npps_vs_fcfs,FCFS,J3,2,2,5,6,8,3.333,6.667,J1 -> J2 -> J3

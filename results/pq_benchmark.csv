@@ -1,0 +1,13 @@
+queue_type,size,operation,avg_time_us,runs
+MaxPriorityQueue,100,insert,1.207,5
+MaxPriorityQueue,100,extract_max,1.205,5
+MaxPriorityQueue,100,increase_key,1.066,5
+MaxPriorityQueue,100,decrease_key,0.354,5
+MaxPriorityQueue,1000,insert,1.816,5
+MaxPriorityQueue,1000,extract_max,2.108,5
+MaxPriorityQueue,1000,increase_key,1.563,5
+MaxPriorityQueue,1000,decrease_key,0.318,5
+MaxPriorityQueue,10000,insert,2.573,5
+MaxPriorityQueue,10000,extract_max,3.118,5
+MaxPriorityQueue,10000,increase_key,2.584,5
+MaxPriorityQueue,10000,decrease_key,0.45,5

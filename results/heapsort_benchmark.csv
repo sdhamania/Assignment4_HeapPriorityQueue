@@ -1,0 +1,7 @@
+algorithm,dataset_type,size,time_ms
+Heap Sort,sorted,1000,1.106
+Heap Sort,reverse_sorted,1000,0.922
+Heap Sort,random,1000,1.036
+Heap Sort,sorted,10000,15.008
+Heap Sort,reverse_sorted,10000,13.561
+Heap Sort,random,10000,15.023
